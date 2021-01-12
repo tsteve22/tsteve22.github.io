@@ -24,3 +24,34 @@ footer {
     color:white;
     text-align:center;
 }
+
+
+
+header{
+    
+    padding:10px;
+    margin:-10px;
+    
+  }
+  .heading-1{
+  padding-top:-30px;
+    color:white;
+  }
+  
+  .photo{
+    float:none;
+    padding-left:300px;
+    padding-bottom:10px;
+  }
+  .heading-2{
+    text-decoration:underline;
+  }
+  .copyright{
+    text-align:center;
+    color:white;
+  }
+  footer{
+    background-color:#00539CFF;
+    padding:10px;
+    margin:-10px;
+  }
