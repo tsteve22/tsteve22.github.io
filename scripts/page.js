@@ -3,5 +3,6 @@ window.addEventListener('load', (event)=>{
     lu.textContent = document.lastModified;
 
     const cry = document.querySelector('#copyrightyear');
-    cry.textContent = new Date().getFullYear();
+    cry.textContent = new Date().getFullYear(); 
+    
 })
