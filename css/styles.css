@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap');
+h1, h2{
+  font-family: 'Barlow Condensed', sans-serif;
+}
 body{
     background-color:white;
     font-family:sans-serif, Arial, Helvetica;
