@@ -1,0 +1,101 @@
+header, footer{
+    background-color:red;
+    color:white;
+}
+.dp-title{
+    text-align:center;
+}
+.dp-subtitle{
+    text-align: center;
+}
+/*.dp-grid{
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    gap: 1rem;
+}*/
+.img-1{
+    width:35%;
+    display:block;
+    margin-right: auto;
+    margin-left:auto;
+    padding-top:10px;
+}
+.header-1{
+    text-align: center;
+}
+.paragraph-1{
+    text-align: center;
+}
+.img-2{
+    width:35%;
+    padding-top: 10px;
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.header-2{
+    text-align: center;
+}
+.paragraph-2{
+    text-align: center;
+}
+.img-3{
+    width:35%;
+    padding-top: 10px;
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.header-3{
+text-align: center;
+}
+.paragraph-3{
+    text-align: center;
+}
+.apple-link{
+    padding-top:70px;
+    font-size: 19px;
+    text-align: center;
+}
+.nintendo-link{
+    padding-top:70px;
+    font-size:19px;
+    text-align: center;
+}
+.byui-link{
+    padding-top:70px;
+    font-size:19px;
+    text-align: center;
+}
+footer{
+    text-align:center;
+}
+main{
+    background-color:#33eaf0;
+}
+body{
+    background-color:red;
+}
+#lastupdated{
+    color:white;
+}
+.websitelink{
+    color:white;
+}
+.allcontent{
+display:grid;
+grid-gap: 1rem;
+}
+
+.item{
+    background-color:burlywood;
+	padding: 1.5vw 2vw;
+    margin: 10px;
+}
+@media (min-width: 600px) {
+	.allcontent { grid-template-columns: repeat(2, 1fr); }
+  }
+@media (min-width: 900px) {
+	.allcontent { grid-template-columns: repeat(3, 1fr); }
+  }
