@@ -6,11 +6,9 @@ window.addEventListener('load', ()=>{
     
     window.onresize = ()=> {if(window.innerWidth>760) mainnav.classList.remove('responsive');};
 });
-window.addEventListener('load', (event)=>{
-    const lu = document.querySelector('#lastupdated');
-    lu.textContent = document.lastModified;
+const cry = document.querySelector('#copyrightyear');
+cry.textContent = new Date().getFullYear(); 
 
-    const cry = document.querySelector('#copyrightyear');
-    cry.textContent = new Date().getFullYear(); 
-    
-})
+const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+const date = new Date();
+document.querySelector('#currentdate').innerHTML = date.toLocaleDateString("en-GB", options);
