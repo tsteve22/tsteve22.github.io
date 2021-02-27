@@ -35,5 +35,7 @@ table,thead, tfoot, th, td {
   }
   caption {
       padding: 20px;
+      font-size:25px;
+      font-style: bold;
   }
 
