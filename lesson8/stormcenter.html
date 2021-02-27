@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Fill Me In">
+<meta name="author" content="John Doe">
+<link rel="shortcut icon" href="images/favicon8.ico">
+<title>Stormcenter</title>
+
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/stormcenter.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<!--<link href="css/styles.css" rel="stylesheet">-->
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+
+
+     
+</head>
+<body>
+<!-- HEADER HERE -->
+	<header>
+        <img src="images/logo8.png" alt="logo of a sunny day with a barometer" class="logo">
+        <h1 class="header-1">The Barometric Theorist</h1>
+        <p class="subtitle">Forecasting knowledge for days</p>
+    </header>
+    
+    
+<!-- NAVIGATION HERE -->
+    <nav class="navbar">
+        <ul id="navigation">
+                <li class="ham"><a href="#">&#9776;</a></li>
+                <li><a href="https://www.byui.edu">Home</a></li>
+                <li class="active"><a href="preston-6.html">Preston</a></li>
+                <li><a href="https://www.idahofallsidaho.gov/">Soda Springs</a></li>
+                <li><a href="https://www.rexburg.org/">Fish Haven</a></li>
+                <li><a href="https://cityofpaul.org/">Storm Center</a></li>
+                <li><a href="lesson7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    
+    
+<!-- CONTENT HERE -->
+<main>
+    <h1 class="title">Storm Help Application</h1>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label class="top"> Full Name* <input type="text" name="fname" required></label>
+                <label class="top"> Phone <input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="top"> Email* <input type="email" name="email" placeholder="someone@gmail.com" ></label>
+                <label class="top"> Zip Code <input type="number" name="zipcode" placeholder="123456" required></label>
+            
+            </fieldset>
+
+            <fieldset>
+                <legend>Storm Information</legend>
+                <div>Storm date</div>
+                <label class="top"><input type="date" name="completeDate"></label>
+                <div>Storm Type</div>
+                <label class=""><input list="select" class="stormtype">
+                    <datalist Id="select">
+                        <option value="">Please Select &#9662;</option>
+                        <option value="Flash Flood"></option>
+                        <option value="Hail"></option>
+                        <option value="Hurricane"></option>
+                        <option value="Thunderstorm"></option>
+                        <option value="Tornado"></option>
+                    </datalist>
+                </label>
+                <div>Storm Severity</div>
+                <input type="range" min="1" max="10" value="5" class="slider" id="myRange">
+                <span id="demo"></span>
+                <div>Storm Region</div>
+                <label class="top">
+                    <select name="subject">
+                        <option value="">Please Select &#9662;</option>
+                        <option value="software">Preston</option>
+                        <option value="creative">Soda Springs</option>
+                        <option value="info">Fish Haven</option>
+                        </select>
+                    </label>
+                    <div>Are you in Danger</div>
+                <label class="sbs"><input type="radio" name="audience" value="beginner"> Yes</label>
+                <label class="sbs"><input type="radio" name="audience" value="intermediate"> No</label>
+                <label class="sbs"><input type="radio" name="audience" value="advanced"> Maybe</label>
+                <div>Additional Information</div>
+                <label><input type="text"></label>
+
+            </fieldset>
+
+
+            <input type="submit" value="Propose My Course" class="submitBtn" href="thanks.html">
+
+
+
+        
+
+        </form>   
+        
+    </main>
+    
+<!-- FOOTER HERE -->   
+    <footer>
+        <p class="copyright">&copy; 2021<span id="copyrightyear"></span> | Tanner Stevenson | Utah |  <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+       <!-- <p class="highlight">Current Date: <span id="currentdate"></span></p> -->
+    </footer>
+<script src="js/script.js"></script>
+</body>
