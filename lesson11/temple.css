@@ -1,0 +1,13 @@
+section{
+    border: 5px solid grey;
+}
+h2{
+    text-align: center;
+}
+img{
+    display: block;
+    margin:auto;
+}
+p{
+    text-align: center;
+}
