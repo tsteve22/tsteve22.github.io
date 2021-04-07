@@ -1,0 +1,13 @@
+nav li a{
+    color:white;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+div{
+    grid-column: 2;
+}
+div img{
+    width:400px ;
+}

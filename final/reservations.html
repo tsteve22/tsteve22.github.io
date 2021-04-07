@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations</title>
+    <link rel="shortcut icon" href="images/finalicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/reservations.css">
+    <script src="js/scripts.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="logo" src="images/finaltempleInnicon.png"></a>
+        <h1>Temple Inn & Suites</h1>
+    </header>
+<nav>
+    <ul id="navigation">
+        <li><a href="#" class="ham">&#9776;</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contactUs.html">contact us</a></li>
+        <li><a href="Temples.html">temples</a></li>
+        <li><a href="services.html">services</a></li>
+        <li class="active"><a href="reservations.html">reservations</a></li>
+    </ul>
+</nav>
+<main>
+    <h1 class="title">Room Help Application</h1>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label class="top"> Full Name* <input type="text" name="fname" placeholder="John Doe" required></label>
+                <label class="top"> Phone <input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="top"> Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top"> Zip or Country Code <input type="number" name="zipcode" placeholder="123456" required></label>
+            
+            </fieldset>
+
+            <fieldset>
+                <legend>Room Information</legend>
+                <div>Date of Arrival</div>
+                <label class="top"><input type="date" name="completeDate" required></label>
+                <div>Room Type</div>
+                <label><input list="select" class="roomtype" placeholder="Please Select">
+                    <datalist Id="select">
+                        <option value="">Please Select &#9662;</option>
+                        <option value="Single room"></option>
+                        <option value="Double room"></option>
+                        <option value="Twin room"></option>
+                        <option value="Triple room"></option>
+                        <option value="Quad/Family room"></option>
+                    </datalist>
+                </label>
+                <div>Hotel Region</div>
+                <label class="top"><input type="list" list="cities" placeholder="Please Select">
+                     <datalist id="cities">
+                        <option value="">Please Select</option>
+                        <option value="Idaho Falls">Idaho Falls</option>
+                        <option value="Rexburg">Rexburg</option>
+                        <option value="Kansas City">Kansas City</option>
+                        <option value="Oklahoma City">Oklahoma City</option>
+                         </datalist> 
+                    </select> </label>
+                <div>Special Accomodations</div>
+                <label class="top"><input type="text" placeholder="i.e. wheelchair" required></label>
+
+            </fieldset>
+
+
+            <input type="submit" value="Request Reservation" class="submitBtn" href="/final/thanks.html">
+
+        </form>   
+        
+    </main>
+</body>
+</html>

@@ -1,0 +1,27 @@
+nav li.active{
+    background-color: black;
+}
+nav li a{
+    color: white;
+}
+section{
+    border: 5px solid grey;
+}
+h2{
+    text-align: center;
+}
+img{
+    display: block;
+    margin:auto;
+}
+p{
+    text-align: center;
+}
+
+h1{
+    padding-left: 20px;
+}
+.logo{
+    margin: 0;
+    padding-left: 20px;
+}
